@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordle-helper"
+version = "0.1.0"
+description = "Hybrid Wordle helper (manual first turn, auto thereafter)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["requests"]
+
+[project.scripts]
+wordle-helper = "wordle_helper.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

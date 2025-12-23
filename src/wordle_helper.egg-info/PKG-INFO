@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: wordle-helper
+Version: 0.1.0
+Summary: Hybrid Wordle helper (manual first turn, auto thereafter)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests

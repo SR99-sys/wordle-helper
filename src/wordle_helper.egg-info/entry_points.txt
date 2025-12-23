@@ -1,0 +1,2 @@
+[console_scripts]
+wordle-helper = wordle_helper.cli:main
